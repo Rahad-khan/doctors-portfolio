@@ -1,40 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
 body {
-    margin: 0;
-    font-family: 'Merriweather', serif;
+  margin: 0;
+  font-family: "Merriweather", serif;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-h1 span{
-    color: #9A0680;
+h1 span {
+  color: #9a0680;
+}
+h2 {
+  font-size: 40px;
+}
+.last-container h3 {
+  color: #9a0680;
 }
 .the-area {
-    display: flex;
-    margin-bottom: 140px;
+  display: flex;
+  margin-bottom: 140px;
 }
 #wlc-area {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
 .half-container {
-    width: 40%;
-    margin-left: 5%;
-    padding-left: 2%;
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
 }
 .half-container img {
-    width: 95%;
+  width: 95%;
 }
 .link-button {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
-    padding: 5px 20px;
-    background-image: linear-gradient(#e6b822, #bb1f14ee);
-    border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 40px;
+  background-image: linear-gradient(#e6b822, #bb1f14ee);
+  border-radius: 8px;
 }
 #aim-area {
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.exp-area {
+  background: url(images/exp-bg.png) no-repeat left bottom;
+}
+.last-container {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+  box-shadow: 5px 7px 40px gray;
+  border-left: 5px solid;
+}
+
+#full-stack {
+  border-image: linear-gradient(#9900ff, #79092b);
+  border-image-slice: 1;
+}
+#baby-stack {
+  border-image: linear-gradient(#090979, #00d4ff);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
